@@ -39,6 +39,19 @@ Le choix d'une plate-forme de communication s'avère compliqué car il faut teni
 
 # Problématiques
 
+- **"discord-dépendance":** bah lààààààà ....
+- **Communication:**
+    - difficulté a trouver un membre précis dans la liste.
+    - trop de channels, trop de threads
+    
+- **Discord n'est pas professionnel:**
+    - gestion des membres: attribution de roles, pseudonymes, respect de la vie privée.
+    - Biais dans l'utilisation de discord. 
+- **User expérience compliquée:**
+    - Le nombre de slash commands deviendra trop imposant
+
+
+
 # Enjeux
 
 
