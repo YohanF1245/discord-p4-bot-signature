@@ -17,8 +17,18 @@ Le choix d'une plate-forme de communication s'avère compliqué car il faut teni
 
 # Objectifs stratégiques et opérationnels
 
+## ♟️Stratégique♟️
+**Attirer les retruteurs:** l'aspect communautaire ouvrira une porte vers le marché caché de l'emploi. 
+**Rétention des membres:** Maitriser la qualité du contenu et créer un espace qui fleure bon le professionnalisme et la convivialité incitera les membres a ne pas quitter le serveur et à continuer a participer a la vie du serveur.
+**Image de marque de simplon:** Avec la prise de conscience du grand publique que le numérique est une voie forte d'accès a l'emploi et la multiplication des plateformes de formation en ligne, la compétition est féroce entre les prestataires qui offrent des formations. Cela se répercute sur la difficulté a remplir les groupes de promos ainsi que la répartition des bugdets dédiés a la formation. 
+**Attirer les pépites:** Héritage du précedent point, une bonne image de marque attirera plus facilement des talents (apprenants ou coach). 
 
-
+## ⚙️Opérationnels⚙️
+**Fluidifier la transmition d'informations:** Une communication inéfficace compromet la transmition d'informations, ce qui peut entrainer par exemple une surchage de travail administrative.
+**Optimisation du temps de travail:** Les bots discord ont pour objectif d'automatiser tout ou partie des interactions entre membres (par exemple en simplifiant le rappel des non-signataires). Un gain de temps induit un gain de productivité.
+**Optimisation organisationnelle:** Les bots discord ont pour objectif de centraliser les opérations, ce qui permettra de gagner du temps et d'accroître la productivité.
+**Néo-méthodes de travail:** (Opportunité ou enjeux) Intégrer de nouvelles fonctionnalités, permettant de remplacer des outils existants ou de simplifier leur utilisation
+**Simplification de la gestion des groupes:** Les bots Discord permettent d'automatiser la création et la gestion des groupes, facilitant ainsi leur composition, leur suivi et leur réorganisation. Cette centralisation des tâches améliore l'efficacité et réduit les erreurs de gestion, tout en fluidifiant les processus internes.
 
 # Opportunités
 
