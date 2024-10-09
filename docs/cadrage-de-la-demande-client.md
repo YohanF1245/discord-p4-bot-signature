@@ -18,19 +18,24 @@ Le choix d'une plate-forme de communication s'avère compliqué car il faut teni
 # Objectifs stratégiques et opérationnels
 
 ## ♟️Stratégique♟️
-**Attirer les retruteurs:** l'aspect communautaire ouvrira une porte vers le marché caché de l'emploi. 
-**Rétention des membres:** Maitriser la qualité du contenu et créer un espace qui fleure bon le professionnalisme et la convivialité incitera les membres a ne pas quitter le serveur et à continuer a participer a la vie du serveur.
-**Image de marque de simplon:** Avec la prise de conscience du grand publique que le numérique est une voie forte d'accès a l'emploi et la multiplication des plateformes de formation en ligne, la compétition est féroce entre les prestataires qui offrent des formations. Cela se répercute sur la difficulté a remplir les groupes de promos ainsi que la répartition des bugdets dédiés a la formation. 
-**Attirer les pépites:** Héritage du précedent point, une bonne image de marque attirera plus facilement des talents (apprenants ou coach). 
+- **Attirer les retruteurs:** l'aspect communautaire ouvrira une porte vers le marché caché de l'emploi. 
+- **Rétention des membres:** Maitriser la qualité du contenu et créer un espace qui fleure bon le professionnalisme et la convivialité incitera les membres a ne pas quitter le serveur et à continuer a participer a la vie du serveur.
+- **Image de marque de simplon:** Avec la prise de conscience du grand publique que le numérique est une voie forte d'accès a l'emploi et la multiplication des plateformes de formation en ligne, la compétition est féroce entre les prestataires qui offrent des formations. Cela se répercute sur la difficulté a remplir les groupes de promos ainsi que la répartition des bugdets dédiés a la formation. 
+- **Attirer les pépites:** Héritage du précedent point, une bonne image de marque attirera plus facilement des talents (apprenants ou coach).
+- **Ergonomie:** L'amélioration de l'experience utilisateur via l'egornomie ajoutée par les bots discord est un objectif stratégique qui va renforcer les autres points cités. 
 
 ## ⚙️Opérationnels⚙️
-**Fluidifier la transmition d'informations:** Une communication inéfficace compromet la transmition d'informations, ce qui peut entrainer par exemple une surchage de travail administrative.
-**Optimisation du temps de travail:** Les bots discord ont pour objectif d'automatiser tout ou partie des interactions entre membres (par exemple en simplifiant le rappel des non-signataires). Un gain de temps induit un gain de productivité.
-**Optimisation organisationnelle:** Les bots discord ont pour objectif de centraliser les opérations, ce qui permettra de gagner du temps et d'accroître la productivité.
-**Néo-méthodes de travail:** (Opportunité ou enjeux) Intégrer de nouvelles fonctionnalités, permettant de remplacer des outils existants ou de simplifier leur utilisation
-**Simplification de la gestion des groupes:** Les bots Discord permettent d'automatiser la création et la gestion des groupes, facilitant ainsi leur composition, leur suivi et leur réorganisation. Cette centralisation des tâches améliore l'efficacité et réduit les erreurs de gestion, tout en fluidifiant les processus internes.
+- **Fluidifier la transmition d'informations:** Une communication inéfficace compromet la transmition d'informations, ce qui peut entrainer par exemple une surchage de travail administrative.
+- **Optimisation du temps de travail:** Les bots discord ont pour objectif d'automatiser tout ou partie des interactions entre membres (par exemple en simplifiant le rappel des non-signataires). Un gain de temps induit un gain de productivité.
+- **Optimisation organisationnelle:** Les bots discord ont pour objectif de centraliser les opérations, ce qui permettra de gagner du temps et d'accroître la productivité.
+- **Néo-méthodes de travail:** (Opportunité ou enjeux) Intégrer de nouvelles fonctionnalités, permettant de remplacer des outils existants ou de simplifier leur utilisation
+- **Simplification de la gestion des groupes:** Les bots Discord permettent d'automatiser la création et la gestion des groupes, facilitant ainsi leur composition, leur suivi et leur réorganisation. Cette centralisation des tâches améliore l'efficacité et réduit les erreurs de gestion, tout en fluidifiant les processus internes.
+- **Ergonomie:** L'amélioration de l'experience utilisateur via l'egornomie ajoutée par les bots discord est un objectif opérationel qui va renforcer les autres points cités. 
 
 # Opportunités
+- **Déploiement à plus grande échelle:** Pour le moment ce projet ne dépasse pas le spectre du groupe Simplon Haut-de-France. Un travail de qualité pourrait permettre de faire adopter ce projet au niveau national, voire international.
+- **S'affranchir de certains outils surannés:** Certains outils représentent un frein au bon déroulement de l'apprentissage. En cas de succès de ce projet, nous pourrions éspérer voir fleurir de nouveaux projets dans la continuité de ceux ci (exemple: gerer les briefs et le suivi de l'apprentissage directement via discord)
+- **L'open source:** De part leur nature précise, les différentes parties de se projet remedient a des problèmes qui n'ont pas de solutions a l'heure actuelle. Le travail effectué aurait une portée au dela du groupoe simplon.
 
 # Problématiques
 
