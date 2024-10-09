@@ -17,6 +17,13 @@ Le choix d'une plate-forme de communication s'avère compliqué car il faut teni
 
 # Objectifs stratégiques et opérationnels
 
+## ♟️Stratégique♟️
+**Attirer les retruteurs:** l'aspect communautaire ouvrira une porte vers le marché caché de l'emploi. 
+**Rétention des membres:** Maitriser la qualité du contenu et créer un espace qui fleure bon le professionnalisme et la convivialité incitera les membres a ne pas quitter le serveur et à continuer a participer a la vie du serveur.
+**Image de marque de simplon:** Avec la prise de conscience du grand publique que le numérique est une voie forte d'accès a l'emploi et la multiplication des plateformes de formation en ligne, la compétition est féroce entre les prestataires qui offrent des formations. Cela se répercute sur la difficulté a remplir les groupes de promos ainsi que la répartition des bugdets dédiés a la formation. 
+**Attirer les pépites:** Héritage du précedent point, une bonne image de marque attirera plus facilement des talents (apprenants ou coach). 
+
+
 
 
 
