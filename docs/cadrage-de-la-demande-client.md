@@ -1,6 +1,8 @@
 # Cadrage de la demande client
 
-# Contexte
+# Global
+
+# Contexte 
 
 ## A propos de SIMPLON
 
@@ -54,6 +56,18 @@ Le choix d'une plate-forme de communication s'avère compliqué car il faut teni
 
 # Enjeux
 
-
-
 # Contraintes
+Discord n'est pas open source, les possibilités pour ajouter des features sont limités aux possibilités par l'api discord en matière de création de bots.
+Discord représente un intermédiaire par qui vont transitter les données et à une sombre réputation sur sa politique de conservation des données.
+
+# Contexte spécifique au Bot Signatature
+
+AActuellement, lorsque les coachs doivent rappeler à un apprenant de signer, ils doivent rechercher manuellement le nom de la personne concernée, rendant le processus fastidieux et inefficace. Il devient donc essentiel de réfléchir à une solution pour simplifier cette démarche, particulièrement dans le cadre des formations ouvertes à distance.
+
+# Objectif stratégique
+
+#problematique 
+
+le rappel de la signature est peu intuitif
+    - le coach doit rechercher dans une longue liste de nombs pour rappeler un apprenant  a l'ordre
+    - le coach peut oublier de lancer le code de la signature
