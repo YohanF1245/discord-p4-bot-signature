@@ -71,3 +71,52 @@ AActuellement, lorsque les coachs doivent rappeler à un apprenant de signer, il
 le rappel de la signature est peu intuitif
     - le coach doit rechercher dans une longue liste de nombs pour rappeler un apprenant  a l'ordre
     - le coach peut oublier de lancer le code de la signature
+
+Les problemes
+
+<table>
+    <tr>
+        <td>Problématiques</td>
+        <td>Problèmes</td>
+        <td>Conséquences</td>
+        <td>Solution</td>
+    </tr>
+    <tr>
+        <td rowspan="5">Oubli de signatures</td>
+        <td>Rattrapages</td>
+        <td>Perte de temps</td>
+        <td><a href="#">Aautomatisation des rappels</a></td>
+    </tr>
+    <tr>
+        <td>Abense injustifiée</td>
+        <td>Perte de rémunération</td>
+        <td><a href="#">Automatisation des rappels</a></td>
+    </tr>
+    <tr>
+        <td>Remise en cause du sérieux de Simplon</td>
+        <td>Perte de financements
+        </td>
+        <td><a href="#">Automatisation des rappels</a></td>
+    </tr>
+    <tr>
+        <td>Difficulté a cibler les apprenants</td>
+        <td>Perte de temps <br> Risque d'oublis</td>
+        <td><a href="#">Centraliser la promo</a></td>
+    </tr>
+    <tr>
+        <td>Demander un envoi de signature au formateur</td>
+        <td>Perte de temps <br> Risque d'oublis</td>
+        <td><a href="#">Systeme de vote</a>
+    </td>
+    <tr>
+        <td rowspan="2">Outils de signatures externes</td>
+        <td>Outils différents</td>
+        <td>Disperssion entre les plateformes</td>
+        <td><a href="#">Centraliser les rappels de signatures</a></td>
+    </tr>
+    <tr>
+        <td>Rattrapages officiels pass assez efficace</td>
+        <td>Surcharge de travail administratif</td>
+        <td><a href="#">Commande manuelle de notification(BTN)</a></td>
+    </tr>
+</table>
