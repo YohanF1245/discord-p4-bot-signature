@@ -1,3 +1,11 @@
+# Bot Discord
+
+# Table des matières
+1. [Contexte](#)
+1.1 [A propos de SIMPLON](#)
+1.2 [La communication et le discord](#)
+2. [Problématiques](#)
+ 
 # Contexte 
 
 ## A propos de SIMPLON
