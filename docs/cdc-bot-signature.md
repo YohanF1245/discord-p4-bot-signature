@@ -36,7 +36,7 @@ Le choix d'une plate-forme de communication s'avère compliqué car il faut teni
     <tr>
         <td>Difficulté à cibler les apprenants</td>
         <td rowspan="2">Perte de temps <br> Risque d'oublis</td>
-        <td><a href="#">Centraliser les promo</a></td>
+        <td><a href="#">Centraliser les groupes d'apprenants</a></td>
     </tr>
     <tr>
         <td>Demander un envoi de signature au formateur</td>
@@ -71,6 +71,14 @@ Le bot consiste en une simplification de la communication bi-latérale entre coa
     - Notification du rappel: Le bot permettra d'envoyer un message privé aux apprenants qui auraient omis de signer.
 - Apprenant -> coach:
     - Demander l'ouverture des signatures.
+
+### Centraliser les groupes d'apprenants
+
+Chez simplon un coach peut gérer plusieurs groupes d'apprenants, rendant ainsi difficile la recherche d'un apprenant en particulier dans la liste des membres discord.
+
+Le bot discord offrira une possibilité simple et intuitive de contacter un ou plusieurs apprenants{méthode a définir avec le iencli}
+
+### Système de vote
 
 # Personas
 
