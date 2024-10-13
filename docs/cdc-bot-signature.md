@@ -80,6 +80,10 @@ Le bot discord offrira une possibilité simple et intuitive de contacter un ou p
 
 ### Système de vote
 
+Simplon dispense de formations qui peuvent être intensives, ainsi apprenants comme coachs ont souvent la tête pleine de problèmes a résoudre ce qui induit un potentiel oubli de l'émargement du coté du coach. 
+
+Pour remédier a cela nous avons pensé a l'implémentation via le bot discord d'une solution de vote permettant de notifier le coach qu'il doit lancer la procédure d'émargement.
+
 # Personas
 
 # Conclusion
