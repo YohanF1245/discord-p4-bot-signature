@@ -82,12 +82,11 @@ Les problèmes :
         <td rowspan="5">Oubli de signatures</td>
         <td>Rattrapages</td>
         <td>Perte de temps</td>
-        <td><a href="#">Automatisation des rappels</a></td>
+        <td rowspan="2"><a href="#">Automatisation des rappels</a></td>
     </tr>
     <tr>
         <td>Absence injustifiée</td>
         <td>Perte de rémunération</td>
-        <td><a href="#">Automatisation des rappels</a></td>
     </tr>
     <tr>
         <td>Remise en cause du sérieux de Simplon</td>
@@ -97,7 +96,7 @@ Les problèmes :
     <tr>
         <td>Difficulté à cibler les apprenants</td>
         <td>Perte de temps <br> Risque d'oublis</td>
-        <td><a href="#">Centraliser la promo</a></td>
+        <td><a href="#">Centraliser les promo</a></td>
     </tr>
     <tr>
         <td>Demander un envoi de signature au formateur</td>
@@ -111,8 +110,10 @@ Les problèmes :
         <td><a href="#">Centraliser les rappels de signatures</a></td>
     </tr>
     <tr>
-        <td>Rattrapages officiels pas assez efficaces</td>
+        <td>Rappels officiels pas assez efficaces</td>
         <td>Surcharge de travail administratif</td>
         <td><a href="#">Commande manuelle de notification (BTN)</a></td>
     </tr>
 </table>
+
+## Automatisation des rappels
