@@ -59,7 +59,7 @@ Le choix d'une plate-forme de communication s'avère compliqué car il faut teni
     <tr>
         <td>Rappels officiels pas assez efficaces</td>
         <td>Surcharge de travail administratif</td>
-        <td><a href="#">Commande manuelle de notification (BTN)</a></td>
+        <td><a href="#">Commande manuelle de notification</a></td>
     </tr>
 </table>
 
@@ -91,6 +91,15 @@ Le bot discord offrira une possibilité simple et intuitive de contacter un ou p
 Simplon dispense de formations qui peuvent être intensives, ainsi apprenants comme coachs ont souvent la tête pleine de problèmes a résoudre ce qui induit un potentiel oubli de l'émargement du coté du coach. 
 
 Pour remédier a cela nous avons pensé a l'implémentation via le bot discord d'une solution de vote permettant de notifier le coach qu'il doit lancer la procédure d'émargement.
+
+## Outils de signature externes
+
+### Outils d'émargements différents
+
+La gestion de l'émargement est séparée sur deux plates formes différentes: SoWeSign et NetYparéo. Cela entraînne plus de manipulations parcequ'il faut changer de plate-forme d'un jour a l'autre selon la méthode d'émargment disponible pour le groupe.
+
+L'intégration d'un bot discord permettra de centraliser une partie des opérations liées aux opérations de gestion de l'émargement, attenuant ainsi la pénibilité  de ces dernières. 
+
 
 # Personas
 
