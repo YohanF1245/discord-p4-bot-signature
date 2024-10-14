@@ -24,7 +24,7 @@ Le choix d'une plate-forme de communication s'avère compliqué car il faut teni
 
 # Problèmatiques
 
-<table>
+<table>gi
     <tr>
         <td>Problématiques</td>
         <td>Problèmes</td>
@@ -100,7 +100,15 @@ La gestion de l'émargement est séparée sur deux plates formes différentes: S
 
 L'intégration d'un bot discord permettra de centraliser une partie des opérations liées aux opérations de gestion de l'émargement, attenuant ainsi la pénibilité  de ces dernières. 
 
+### Commande manuelle de notification
 
+La gestion des notifications de rappels des apprenants sur les applications officielles est peu adaptée. En effet, quelque soit la plateforme, le rappel se fait par mail, ce qui n'est pas optimal.
+
+Les retours collectés des coachs l'ayant déjà utilisé démontrent que le mail passe souvent inaperçu.
+
+Par opposition, l'utilisation de discord est l'épicentre d'une journée de travail, en particulier dans le cadre des jours de formations ouvertes à distance, où discord est l'endroit où transite toute l'information. Il apparaît alors évident que si toute l'information passe par discord, ce dernier devient le canal de discussion de prédilection pour faire passer les notifications de signatures manquantes.
+
+L'intégration d'un bot discord permettra d'avoir une solution simple et intuitive pour envoyer une notification a un ou plusieurs apprenants. 
 # Personas
 
 # Conclusion
