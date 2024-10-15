@@ -1,32 +1,29 @@
-Quel type d'interface souhaitez-vous pour le bot ? Préférez-vous une intégration directe dans Discord, un tableau de bord externe, ou les deux ?
+# Ce qu'on a compris
 
-En plus du message privé, voulez-vous que le bot rappelle les signatures d'une autre façon?
+1. Si j'ai bien compris le fonctionnement les apprenants auront la possiblité de signaler aux coachs qu'ils ont oublié de lancer la procédure d'émargement ?
 
-Si j'ai bien compris le fonctionnement les apprenants auront la possiblité de signaler aux coachs qu'ils ont oublié de lancer la procédure d'émargement ?
+2. Par exemple en cas de panne d'un outil comme SWS, afin d'envoyer une notification que le rattrapage est actif directement via le bot ?
 
-Par exemple en cas de panne d'un outil comme SWS, afin d'envoyer une notification que le rattrapage est actif directement via le bot ?
+3. Actuellement, il y a un fil de discussion "signatures" sur chaque canaux de promos, sommes-nous d'accord que le bot doit s'articuler autour de ces canaux?
 
-Ormis le staff, les coachs et les apprenants y a t-il d'autres personnes qui vont utiliser le bot?
-                           
-(Yohan assume) Souhaitez-vous conserver des traces d'utilisation du bot, par exemple pour savoir combien de fois il a été utilisé ou quels apprenants ont signé ?
+4. Pouvez vous nous confirmer qu'à l'heure actuelle,lors d'un oubli d'émargement, un lien de rattrapage est généré et envoyé aux apprenants?
 
-/!\ Comment envisagez-vous la gestion des canaux pour l'implémentation du bot ?
+5. Ormis le staff, les coachs et les apprenants y a t-il d'autres personnes qui vont utiliser le bot?
 
- - Pour les coachs : Préférez-vous un canal général, un canal dédié par promotion, ou un canal spécial réservé au staff ?
- - Pour les apprenants : Le bot doit-il lancer la procédure dans un canal existant ou créer un canal spécifique ?
+# Début de piste
 
-A l'heure actuelle, comment gérer-vous les rattrapages chez Simplon?
+1. Quel type d'interface souhaitez-vous pour le bot ? Préférez-vous une intégration directe dans Discord, un tableau de bord externe, ou les deux ?
 
-tko - Quel niveau d'automatisation souhaitez-vous pour le bot ?
+2. En plus du message privé, souhaitez-vous que le bot rappelle les signatures d'une autre façon?
 
-- Le bot devrait-il fonctionner comme une alarme de téléphone, avec des rappels automatiques programmés jusqu'à désactivation pour une demi-journée ?
+3. Souhaitez-vous conserver des traces d'utilisation du bot, par exemple pour savoir combien de fois il a été utilisé ou quels apprenants ont signé (stats/journa)?
+
+4. Avons nous un moyen de récuperer les informations des signataires depuis les outils d'émargement déjà en place chez Simplon?
+
+# Autre approche
+
+1. Le bot devrait-il fonctionner comme une alarme de téléphone, avec des rappels automatiques programmés jusqu'à désactivation pour une demi-journée ? 
 
 Y a-t-il d'autres idées que nous avons pas abordées lors de cet entretien ?
+<hr>
 
-
-KO après relecture: 
-
-
-Dans la base de données liée au bot, est-il prévu de gérer les plannings afin de savoir quel coach est assigné à quel groupe à quel moment ?
-
-Avons nous un moyen de récuperer les informations des signataires depuis les outils d'émargement déjà en place chez Simplon?
