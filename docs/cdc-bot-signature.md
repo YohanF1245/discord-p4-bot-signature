@@ -23,13 +23,7 @@ Le choix d'une plate-forme de communication s'avère compliqué car il faut teni
 
 
 # Problèmatiques
-<<<<<<< HEAD
-tagged
 <table>
-=======
-
-<table>gi
->>>>>>> 34ab98f04ff49f262b5e1171931299848e71e404
     <tr>
         <td>Problématiques</td>
         <td>Problèmes</td>
