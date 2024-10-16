@@ -24,7 +24,7 @@ Le choix d'une plate-forme de communication s'avère compliqué car il faut teni
 
 # Problèmatiques
 
-<table>gi
+<table>
     <tr>
         <td>Problématiques</td>
         <td>Problèmes</td>
