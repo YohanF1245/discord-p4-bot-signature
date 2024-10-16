@@ -1,16 +1,18 @@
-# Ce qu'on a compris
+# ❓ Questions pour le client
 
-1. Si j'ai bien compris le fonctionnement les apprenants auront la possiblité de signaler aux coachs qu'ils ont oublié de lancer la procédure d'émargement ?
+## Ce que nous avons compris sur la demande du client
 
-2. Par exemple en cas de panne d'un outil comme SWS, afin d'envoyer une notification que le rattrapage est actif directement via le bot ?
+1. Actuellement, chaque promos disposent des canaux de discussion "signatures", sommes-nous d'accord sur le fait que le bot doit s'articuler autour de ces canaux ?
 
-3. Actuellement, il y a un fil de discussion "signatures" sur chaque canaux de promos, sommes-nous d'accord que le bot doit s'articuler autour de ces canaux?
+2. Pouvez-vous nous confirmer qu'à l'heure actuelle, lors d'un oubli d'émargement, un lien de rattrapage est généré et envoyé aux apprenants ?
 
-4. Pouvez vous nous confirmer qu'à l'heure actuelle,lors d'un oubli d'émargement, un lien de rattrapage est généré et envoyé aux apprenants?
+3. Est-ce correct qu'il serait possible d'envoyer une notification indiquant que la procédure de rattrapage de signature a été envoyée ?
 
-5. Ormis le staff, les coachs et les apprenants y a t-il d'autres personnes qui vont utiliser le bot?
+1. Pour en avoir la certitude, les apprenants auront également la possiblité de signaler aux coachs qu'ils ont omis de lancer la procédure d'émargement ?
 
-# Début de piste
+5. Mise à part le staff, les formateurs et les apprenants, d'autres utilisateurs intéragiront-ils avec le bot?
+
+## Début de piste
 
 1. Quel type d'interface souhaitez-vous pour le bot ? Préférez-vous une intégration directe dans Discord, un tableau de bord externe, ou les deux ?
 
@@ -20,10 +22,9 @@
 
 4. Avons nous un moyen de récuperer les informations des signataires depuis les outils d'émargement déjà en place chez Simplon?
 
-# Autre approche
+## Autre approche
 
 1. Le bot devrait-il fonctionner comme une alarme de téléphone, avec des rappels automatiques programmés jusqu'à désactivation pour une demi-journée ? 
 
 Y a-t-il d'autres idées que nous avons pas abordées lors de cet entretien ?
-<hr>
 
