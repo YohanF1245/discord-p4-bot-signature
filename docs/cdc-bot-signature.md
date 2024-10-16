@@ -33,16 +33,16 @@ Le choix d'une plate-forme de communication s'avère compliqué car il faut teni
     </tr>
     <tr>
         <td rowspan="4">Oubli de signature</td>
-        <td>Rattrapages</td>
+        <td>Les oublis de signatures engendrent une surcharge de travail administratif</td>
         <td>Perte de temps</td>
         <td rowspan="2"><a href="#">Automatisation des rappels</a></td>
     </tr>
     <tr>
-        <td>Absence injustifiée non légitime</td>
+        <td>Distinguer les réélles absences des oublis de signature</td>
         <td>Manque à gagner</td>
     </tr>
     <tr>
-        <td>Difficulté à cibler les apprenants</td>
+        <td>Perte de  temps à naviguer entre les canaux Discord pour retrouver et contacter individuellement chaque apprenant.</td>
         <td rowspan="2">Perte de temps <br> Risque d'oublis</td>
         <td><a href="#">Centraliser les groupes d'apprenants</a></td>
     </tr>
@@ -51,8 +51,8 @@ Le choix d'une plate-forme de communication s'avère compliqué car il faut teni
         <td><a href="#">Système de vote</a></td>
     </tr>
     <tr>
-        <td rowspan="2">Outils de signature externes</td>
-        <td>Outils différents</td>
+        <td rowspan="2">Outils d'émargements externes</td>
+        <td>Multiplicité des outils d'émargements</td>
         <td>Dispersion entre les plateformes</td>
         <td><a href="#">Centraliser les rappels de signatures</a></td>
     </tr>
