@@ -10,6 +10,7 @@ Diverses contraintes s'opposent a nous, à commencer par les api des outils exte
 processus métier :
 Discord est l'outil de communication séléctionné par les centres Simplon Hauts de France. Il est utilisé par tout le personnel et les apprenants.
 Il y a deux solutions d'émargements selon si la formation est financée par la région (SoWeSign) où nou (NetYparéo).
+Il y a une disparité dans les systèmes d'exploitation: en grande majorité mac ou linux, windows dans une plus faible proportion.
 Le groupe Simplon se scinde en plusieurs groupes par régions. Le méthodes de fonctionnement peuvent légérement différer d'une région a l'autre. L'utilisation d'un discord communautaire est une méthode propre à la région haut-de-france et la gestion des outils d'émargement est commune à toutes les régions.
 
 Exigences fonctionnelles de haut niveau: 
@@ -21,3 +22,8 @@ Exigences fonctionnelles de haut niveau:
     - le bot créé en plus un message pour générer une liste de boutons pour selectioner la liste des apprenants et leur envoyer une notification.
         - Les formateurs peuvent cliquer sur un ou plusieurs boutons représentant un apprentant et valider pour leur envoyer un message privé qui leur indique qu'il n'ont pas signé.
 - A la fin de la demi journée, le bot efface tout les messages du canal signature.
+
+Exigences non fonctionnelles:
+- L'utilisation du bot doit etre la plus accessible pour les apprenants (utilisation de boutons)
+- Le bot doit permerttre de centraliser au maximum les opérations.
+- Le bot doit etre efficace pour notifier les parties concernées, sans pour autant devenir trop oppressant.
