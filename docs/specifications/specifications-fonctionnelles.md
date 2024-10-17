@@ -17,16 +17,19 @@ Exigences fonctionnelles de haut niveau:
 - Le bot créé automatique un message permettant aux apprenants de voter pour rappeller aux formateurs de lancer la procédure d'émargement au début de chaque demi journées.
 
 ![image](/././assets/img/vote-student.png)
+
 - Les chargés de projets peuvent utiliser une commande pour à un formateur de lancer la procédure d'émargement.
     - le bot s'occupe d'envoyer un message privé au formateur pour lui rappeller de faire signer les apprenants.
 - Les formateurs peuvent utiliser une commande pour lancer la procédure d'émargement. Il peuvent ajouter un message supplémentaire (le code par exemple).
 
 ![image](/././assets/img/notify-student-command.png)
+
     - le bot créé un message pour notifier les apprenants qu'ils peuvent signer. 
     - le bot créé en plus un message pour générer une liste de boutons pour selectioner la liste des apprenants et leur envoyer une notification.
         - Les formateurs peuvent cliquer sur un ou plusieurs boutons représentant un apprentant et valider pour leur envoyer un message privé qui leur indique qu'il n'ont pas signé.
 
 ![image](/././assets/img/notify-student-message.png)
+
 - A la fin de la demi journée, le bot efface tout les messages du canal signature.
 
 Exigences non fonctionnelles:
