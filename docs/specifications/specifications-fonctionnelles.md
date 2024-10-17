@@ -20,12 +20,12 @@ Exigences fonctionnelles de haut niveau:
 
 - Les chargés de projets peuvent utiliser une commande pour à un formateur de lancer la procédure d'émargement.
 
-![image](././assets/img/notify-teachers-command.png)
+![image](/././assets/img/notify-teachers-command.png)
 
 -ensuite: 
     - le bot s'occupe d'envoyer un message privé au formateur pour lui rappeller de faire signer les apprenants.
 
-![image](././assets/img/notify-teachers-message.png)
+![image](/././assets/img/notify-teachers-message.png)
 
 - Les formateurs peuvent utiliser une commande pour lancer la procédure d'émargement. Il peuvent ajouter un message supplémentaire (le code par exemple).
 
