@@ -19,10 +19,18 @@ Exigences fonctionnelles de haut niveau:
 ![image](/././assets/img/vote-student.png)
 
 - Les chargés de projets peuvent utiliser une commande pour à un formateur de lancer la procédure d'émargement.
+
+![image](././assets/img/notify-teachers-command.png)
+
+-ensuite: 
     - le bot s'occupe d'envoyer un message privé au formateur pour lui rappeller de faire signer les apprenants.
+
+![image](././assets/img/notify-teachers-message.png)
+
 - Les formateurs peuvent utiliser une commande pour lancer la procédure d'émargement. Il peuvent ajouter un message supplémentaire (le code par exemple).
 
 ![image](/././assets/img/notify-student-command.png)
+
 - ensuite:
     - le bot créé un message pour notifier les apprenants qu'ils peuvent signer. 
     - le bot créé en plus un message pour générer une liste de boutons pour selectioner la liste des apprenants et leur envoyer une notification.
