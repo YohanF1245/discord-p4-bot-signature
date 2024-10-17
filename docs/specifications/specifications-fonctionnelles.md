@@ -6,3 +6,8 @@ Les principaux utilisateurs finaux sont aménés a manipuler le bot sont les for
 Diverses contraintes s'opposent a nous, à commencer par les api des outils externes d'émargement inacessibles. L'environnement discord propose lui aussi son lot de contraintes liées aux possiblités restraintes de l'api discord.
 
 {Périmètre du projet?}{Ojbectis stratégique}{Principaux utilisateurs finaux}{Contraintes externes et internes}
+
+processus métier :
+Discord est l'outil de communication séléctionné par les centres Simplon Hauts de France. Il est utilisé par tout le personnel et les apprenants.
+Il y a deux solutions d'émargements selon si la formation est financée par la région (SoWeSign) où nou (NetYparéo).
+Le groupe Simplon se scinde en plusieurs groupes par régions. Le méthodes de fonctionnement peuvent légérement différer d'une région a l'autre. L'utilisation d'un discord communautaire est une méthode propre à la région haut-de-france et la gestion des outils d'émargement est commune à toutes les régions.
