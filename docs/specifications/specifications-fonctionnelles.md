@@ -11,3 +11,13 @@ processus métier :
 Discord est l'outil de communication séléctionné par les centres Simplon Hauts de France. Il est utilisé par tout le personnel et les apprenants.
 Il y a deux solutions d'émargements selon si la formation est financée par la région (SoWeSign) où nou (NetYparéo).
 Le groupe Simplon se scinde en plusieurs groupes par régions. Le méthodes de fonctionnement peuvent légérement différer d'une région a l'autre. L'utilisation d'un discord communautaire est une méthode propre à la région haut-de-france et la gestion des outils d'émargement est commune à toutes les régions.
+
+Exigences fonctionnelles de haut niveau: 
+- Le bot créé automatique un message permettant aux apprenants de voter pour rappeller aux formateurs de lancer la procédure d'émargement au début de chaque demi journées.
+- Les chargés de projets peuvent utiliser une commande pour à un formateur de lancer la procédure d'émargement.
+    - le bot s'occupe d'envoyer un message privé au formateur pour lui rappeller de faire signer les apprenants.
+- Les formateurs peuvent utiliser une commande pour lancer la procédure d'émargement. Il peuvent ajouter un message supplémentaire (le code par exemple).
+    - le bot créé un message pour notifier les apprenants qu'ils peuvent signer. 
+    - le bot créé en plus un message pour générer une liste de boutons pour selectioner la liste des apprenants et leur envoyer une notification.
+        - Les formateurs peuvent cliquer sur un ou plusieurs boutons représentant un apprentant et valider pour leur envoyer un message privé qui leur indique qu'il n'ont pas signé.
+- A la fin de la demi journée, le bot efface tout les messages du canal signature.
