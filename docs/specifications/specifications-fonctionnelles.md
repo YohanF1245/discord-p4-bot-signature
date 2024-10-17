@@ -23,7 +23,7 @@ Exigences fonctionnelles de haut niveau:
 - Les formateurs peuvent utiliser une commande pour lancer la procédure d'émargement. Il peuvent ajouter un message supplémentaire (le code par exemple).
 
 ![image](/././assets/img/notify-student-command.png)
-
+- 
     - le bot créé un message pour notifier les apprenants qu'ils peuvent signer. 
     - le bot créé en plus un message pour générer une liste de boutons pour selectioner la liste des apprenants et leur envoyer une notification.
         - Les formateurs peuvent cliquer sur un ou plusieurs boutons représentant un apprentant et valider pour leur envoyer un message privé qui leur indique qu'il n'ont pas signé.
