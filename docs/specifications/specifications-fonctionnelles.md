@@ -22,7 +22,7 @@ Exigences fonctionnelles de haut niveau:
 
 ![image](/././assets/img/notify-teachers-command.png)
 
--ensuite: 
+- ensuite: 
     - le bot s'occupe d'envoyer un message privé au formateur pour lui rappeller de faire signer les apprenants.
 
 ![image](/././assets/img/notify-teachers-message.png)
@@ -39,6 +39,8 @@ Exigences fonctionnelles de haut niveau:
 ![image](/././assets/img/notify-student-message.png)
 
 - A la fin de la demi journée, le bot efface tout les messages du canal signature.
+
+Configuration du bot?
 
 Exigences non fonctionnelles:
 - L'utilisation du bot doit etre la plus accessible pour les apprenants (utilisation de boutons)

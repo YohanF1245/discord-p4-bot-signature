@@ -14,8 +14,6 @@
 
 ## Début de piste
 
-1. Quel type d'interface souhaitez-vous pour le bot ? Préférez-vous une intégration directe dans Discord, un tableau de bord externe, ou les deux ?
-
 2. En plus du message privé, souhaitez-vous que le bot rappelle les signatures d'une autre façon?
 
 3. Souhaitez-vous conserver des traces d'utilisation du bot, par exemple pour savoir combien de fois il a été utilisé ou quels apprenants ont signé (stats/journa)?
@@ -28,3 +26,4 @@
 
 Y a-t-il d'autres idées que nous avons pas abordées lors de cet entretien ?
 
+Suite a notre entretien du 
