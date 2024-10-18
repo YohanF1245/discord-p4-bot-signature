@@ -46,3 +46,4 @@ Exigences non fonctionnelles:
 - L'utilisation du bot doit etre la plus accessible pour les apprenants (utilisation de boutons)
 - Le bot doit permerttre de centraliser au maximum les opérations.
 - Le bot doit etre efficace pour notifier les parties concernées, sans pour autant devenir trop oppressant.
+- Le bot doit conserver le nombre de fois ou le bot a été utilisé
