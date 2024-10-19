@@ -44,6 +44,14 @@ Configuration du bot?
 
 Exigences non fonctionnelles:
 - L'utilisation du bot doit etre la plus accessible pour les apprenants (utilisation de boutons)
+- Les actions doivent nécessiter le moins de clics possibles
 - Le bot doit permerttre de centraliser au maximum les opérations.
 - Le bot doit etre efficace pour notifier les parties concernées, sans pour autant devenir trop oppressant.
-- Le bot doit conserver le nombre de fois ou le bot a été utilisé
+- Le bot doit conserver le nombre de fois ou il a été utilisé
+- Le bot doit journaliser toutes les opérations (pour les stats et le débugage)
+- Le bot doit être capable de gérer automatiquement les nouvelles promos
+- Le bot doit être capable de gérer automatiquement les nouvelles formations
+- Le bot doit accorder le droit d'utiliser certaines commandes sous certaines condition(exemple: le vote uniquement pour les roles apprenant ET type de promo)
+- Le bot doit vérifier toute les entrées utilisateur pour protéger la basse de donnée des injections de commandes ou sql
+- Performance: le bot doit être performant sur un server vps avec une petite configuration matérielle
+- Le bot doit créé les premiers messages de vote dans les canaux signatures afin d'éviter les problemes de Performance
