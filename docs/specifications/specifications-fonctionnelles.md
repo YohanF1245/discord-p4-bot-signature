@@ -47,7 +47,7 @@ Exigences non fonctionnelles:
 - Les actions doivent nécessiter le moins de clics possibles
 - Le bot doit permerttre de centraliser au maximum les opérations.
 - Le bot doit etre efficace pour notifier les parties concernées, sans pour autant devenir trop oppressant.
-- Le bot doit conserver le nombre de fois ou il a été utilisé
+- Le bot doit conserver le nombre de fois ou chaque commandes a été utiliséé
 - Le bot doit journaliser toutes les opérations (pour les stats et le débugage)
 - Le bot doit être capable de gérer automatiquement les nouvelles promos
 - Le bot doit être capable de gérer automatiquement les nouvelles formations
