@@ -8,7 +8,7 @@
 - Les formateurs peuvent signaler a un ou plusieurs apprenants de signer
 - Un formateur est lié a une ou plusieurs promotions
 - Une promotion est liée a un ou plusieurs formateur
-Un apprenant suit une formation à la fois
+- Un apprenant suit une formation à la fois
 - Une promotion regroupe plusieurs apprenants
 - Un apprenant appartient a une promotion
 - une formation peut etre dispensée dans un ou plusieurs centres
