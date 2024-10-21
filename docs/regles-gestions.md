@@ -5,7 +5,7 @@
 - Le Bot peut supprimer des messages dans le discord
 - Les chargés de projets ou formateurs peuvent contacter les formateurs via une commande
 - Les formateurs peuvent annoncer que l'émargement est lancé
-- Les formateurs peuvent signaler a un ou plusieurs apprenants de signer
+- Les formateurs peuvent rappeller a un ou plusieurs apprenants de signer
 - Un formateur est lié a une ou plusieurs promotions
 - Une promotion est liée a un ou plusieurs formateur
 - Un apprenant suit une formation à la fois
@@ -22,3 +22,6 @@
 - Le bot doit avoir accès a l'id discord des utilisateurs
 - Le bot doit avoir accès à l'id des canaux discord des promos
 - Le bot doit acoir accès à l'id des fils dicord de signature
+- Le bot enregistre chaque fois ou un utilisateur fait appel a lui dans un journal
+- Le bot enregistre l'etat (démarré/arreté/pause) dans la base de données
+- Le bot enregistre la durée prévue de la mise en pause pour se réactiver automatiquement a la fin de la période.
