@@ -25,5 +25,5 @@
 - Le bot doit avoir accès à l'ID des canaux Discord des promotions.  
 - Le bot doit avoir accès à l'ID des fils Discord de signature.  
 - Le bot enregistre chaque fois qu'un utilisateur fait appel à lui dans un journal.  
-- Le bot enregistre l'état (démarré/arrêté/pause) dans la base de données.  
+- Le bot enregistre l'état (démarré/arrêté/pause).
 - Le bot enregistre la durée prévue de la mise en pause pour se réactiver automatiquement à la fin de la période.
