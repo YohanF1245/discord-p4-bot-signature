@@ -42,6 +42,8 @@ Exigences fonctionnelles de haut niveau:
 
 Configuration du bot?
 
+
+
 Exigences non fonctionnelles:
 - L'utilisation du bot doit etre la plus accessible pour les apprenants (utilisation de boutons)
 - Les actions doivent nécessiter le moins de clics possibles
