@@ -44,9 +44,10 @@ Configuration du bot:
 - Le bot dispose d'une commande de démarrage
 - Le bot dispose d'une commande d'arret globale
 - Le bot dispose d'une commande d'arrêt spécifique à un canal/promo
-- Le bot dispose d'une commande de redémarrage
+- Le bot dispose d'une commande de redémarrage globale
+- Le bot dispose d'une commande de redémarrage spécifique a un canal/promo
 - Le bot dispose d'une pause globale
-- Le bot dispose d'une commande de pause spécifique a un canal/promo
+- Le bot dispose d'une commande de pause spécifique a un canal/promo pour une durée determinée
 
 Exigences non fonctionnelles:
 - L'utilisation du bot doit etre la plus accessible pour les apprenants (utilisation de boutons)
