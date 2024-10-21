@@ -14,3 +14,11 @@
 - une formation peut etre dispensée dans un ou plusieurs centres
 - un centre peut proposer une ou plusieurs formations
 - Les apprenants peuvent signaler au formateurs que qu'ils ont oublié de lancer la procédure d'émargement.
+- Le bot doit avoir accès a la liste des formateurs
+- Le bot doit avoir accès à la liste des foramtions
+- Le bot doit avoir accès à la liste des promos
+- Le bot doit avoir accès à la liste des apprenants
+- Le bot doit avoir accès à la liste des chargés de projets
+- Le bot doit avoir accès a l'id discord des utilisateurs
+- Le bot doit avoir accès à l'id des canaux discord des promos
+- Le bot doit acoir accès à l'id des fils dicord de signature
