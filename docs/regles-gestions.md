@@ -86,10 +86,32 @@
     - 8.6 Renvoyer un message pour avertir que la commande à bien été éxecutée
 -----
 
-- Le bot peut créer des messages dans le Discord.  
-- Le bot doit créer un message pour proposer le vote de rappel au formateur dans chaque canal une fois le matin et une fois l'après-midi.  
-- Le bot peut supprimer des messages dans le Discord.  
-- Les chargés de projets ou formateurs peuvent contacter les formateurs via une commande.  
+
+# Règles de gestion
+
+## Automatisation de la création et de la suppression des messages
+- ### Création de message
+    - Le bot peut créer des messages dans le Discord.
+    - Le bot doit créer un message pour proposer le vote de rappel au formateur dans chaque canal une fois le matin et une fois l'après-midi. 
+
+- ### Suppression de message
+    - Le bot peut supprimer des messages dans le Discord.
+    - Le bot doit supprimer chaque message dans les canaux signature à la fin de chaque demi-journée de cours.
+
+## Rappeler à un formateur qu'il a oublié de faire signer les apprenants
+- Les chargés de projets ou les formateurs peuvent contacter les formateurs via une commande.  
+- Les apprenants peuvent signaler aux formateurs qu'ils ont oublié de lancer la procédure d'émargement via un vote. 
+- Il faut trois votes pour que le vote soit un succès.
+- Le bot peut contacter les formateurs par message privé.
+
+## Envoi d'un message pour signaler qu'ils peuvent signer
+- Le bot peut envoyer des messages dans le fil signature.
+- Le bot peut tagger les promos dans un message.
+- Le formateur a accès à une commande pour annoncer au groupe qu'il peut voter.
+- Cette commande peut prendre en paramètre un message contenant par exemple le code de signature ou un lien.
+- Cette commande peut s'utiliser sans paramètre, dans ce cas un message générique est généré par le bot.
+- Le 
+
 - Les formateurs peuvent utiliser une commande pour annoncer que l'émargement est lancé.  
 - Les formateurs peuvent utiliser une commande pour rappeler à un ou plusieurs apprenants de signer.  
 - Un formateur est lié à une ou plusieurs promotions.  
@@ -100,8 +122,9 @@
 - Une promotion a un chargé de projets.  
 - Un chargé de projets a une ou plusieurs promotions.  
 - Une formation peut être dispensée dans un ou plusieurs centres.  
-- Un centre peut proposer une ou plusieurs formations.  
-- Les apprenants peuvent signaler aux formateurs qu'ils ont oublié de lancer la procédure d'émargement.  
+- Un centre peut proposer une ou plusieurs formations. 
+
+# Données nécéssaires au bot
 - Le bot doit avoir accès à la liste des formateurs.  
 - Le bot doit avoir accès à la liste des formations.  
 - Le bot doit avoir accès à la liste des promotions.  
@@ -110,6 +133,7 @@
 - Le bot doit avoir accès à l'ID Discord des utilisateurs.  
 - Le bot doit avoir accès à l'ID des canaux Discord des promotions.  
 - Le bot doit avoir accès à l'ID des fils Discord de signature.  
+
 - Le bot enregistre chaque fois qu'un utilisateur fait appel à lui dans un journal.  
 - Le bot enregistre l'état (démarré/arrêté/pause).
 - Le bot enregistre la durée prévue de la mise en pause pour se réactiver automatiquement à la fin de la période.
