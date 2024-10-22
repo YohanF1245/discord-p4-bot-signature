@@ -104,16 +104,21 @@
 - Il faut trois votes pour que le vote soit un succès.
 - Le bot peut contacter les formateurs par message privé.
 
-## Envoi d'un message pour signaler qu'ils peuvent signer
+## Envoi d'un message pour signaler aux apprenants qu'ils peuvent signer
 - Le bot peut envoyer des messages dans le fil signature.
 - Le bot peut tagger les promos dans un message.
 - Le formateur a accès à une commande pour annoncer au groupe qu'il peut voter.
 - Cette commande peut prendre en paramètre un message contenant par exemple le code de signature ou un lien.
 - Cette commande peut s'utiliser sans paramètre, dans ce cas un message générique est généré par le bot.
-- Le 
+- Le bot envoie un message dans le fil signature en taggant la promo associée au canal en leur indiquant qu'ils peut signer ainsi que le message du formateur s'il en a renseigné un.
+- Cette commande génère un message éphèmere visible uniquement par celui qui à utilisé la commance.
+- Le message contient une liste de bouttons représentant la liste toute les apprenants de la promo liés a ce canal.
+- Ces bouttons ont deux états (activé/non activé).
+- Le bot récupère une la liste de tout les apprenants via les bouttons selectionnés.
+- Le bot contacte les apprenants selectionés par message privé pour leur signalé qu'ils n'ont pas signé.
 
-- Les formateurs peuvent utiliser une commande pour annoncer que l'émargement est lancé.  
-- Les formateurs peuvent utiliser une commande pour rappeler à un ou plusieurs apprenants de signer.  
+## Structurartion de l'organisation
+
 - Un formateur est lié à une ou plusieurs promotions.  
 - Une promotion est liée à un ou plusieurs formateurs.  
 - Un apprenant suit une formation à la fois.  
@@ -133,6 +138,10 @@
 - Le bot doit avoir accès à l'ID Discord des utilisateurs.  
 - Le bot doit avoir accès à l'ID des canaux Discord des promotions.  
 - Le bot doit avoir accès à l'ID des fils Discord de signature.  
+
+## Journalisation et logs
+
+## Configuration du bot
 
 - Le bot enregistre chaque fois qu'un utilisateur fait appel à lui dans un journal.  
 - Le bot enregistre l'état (démarré/arrêté/pause).
