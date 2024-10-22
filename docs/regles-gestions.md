@@ -80,8 +80,10 @@
 - ### 8 Utiliser la commande pour notifier les formateurs
     - 8.1 Lire l'identifiant discord de l'utilisateur qui a utilisé la commande
     - 8.2 Lire le nom choisi par l'utilisateur de la commande
-    - 8.3 Envoyer un message privé au formateur qui est identifié via l'id séléctionnée
-    - 8.4 Renvoyer un message pour avertir que la commande à bien été éxecutée
+    - 8.3 Récupérer l'id discord du formateur via la commande
+    - 8.4 Sélectionner le formateur correspondant a la l'id du formateur
+    - 8.5 Envoyer un message privé au formateur qui est identifié via l'id séléctionnée
+    - 8.6 Renvoyer un message pour avertir que la commande à bien été éxecutée
 -----
 
 - Le bot peut créer des messages dans le Discord.  
