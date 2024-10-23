@@ -164,6 +164,7 @@
 ## Configuration du bot
 
 - Le bot enregistre l'état (démarré/arrêté/pause).
+- Le bot dispose d'une fonction de redémarrage.
 - L'arrêt du bot peut se faire à l'échelle globale ou pour des canaux spécifiques
 - La mise en pause du bot peut se faire à l'échelle globale ou pour des canaux spécifiques
 - Le bot enregistre la durée prévue de la mise en pause pour se réactiver automatiquement à la fin de la période.
