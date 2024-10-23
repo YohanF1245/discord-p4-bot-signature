@@ -12,6 +12,7 @@
 - Le bot possède une fonctionnalité pour créer les messages dans tout les thread signature d'un coup (pour l'initialisation du bot)
 
 ## Rappeller a un formateur qu'il a oublié de faire signer
+- Le message est lié à un channel de promo.
 - Le message prend la forme d'un vote.
 - Le message contient une liste de boutons.
 - Il y a un bouton par formateur de la promo.
@@ -24,17 +25,23 @@
 - Dès que le vote est un succès le bot envoie un message privé au formateur pour l'avertir qu'il doit autoriser les apprenants à signer.
 
 ## Prévenir les apprenants qu'ils peuvent signer
-- 
+- Le message est lié à un channel de promo.
+- Le message possède un bouton
+- Seul les formateurs peuvent utiliser le bouton
+- Le message est envoyé directement dans le thread signature.
+- La promo est notifiée via un tag @
+- Le bot peut sauvegarder l'id du message
+- Le bot peut supprimer le message quand il n'est plus utile
 
 ## Rappeller a un apprenant qu'il a oublié de signer
 - Le message est lié à un channel de promo.
 - Le message contient une liste de boutons.
 - Seul les formateurs peuvent interragir avec les boutons.
 - Il y a un bouton par apprenant de promo.
-- Les boutons on deux états: actif et inactif.
+- Les boutons ont deux états: actif et inactif.
 - Plusieurs boutons peuvent etre actifs en meme temps
 - Il y a un bouton pour valider l'envoi des rappels.
-- Lorsqu'un rappel est validé le bot dresse une liste d'apprenants a notifier selon l'état activé des bouttons.
+- Lorsqu'un rappel est validé le bot dresse une liste d'apprenants a notifier selon l'état 'activé' des bouttons.
 - Les apprenants sélectionnés sont notifiés par message privé.
 
 
