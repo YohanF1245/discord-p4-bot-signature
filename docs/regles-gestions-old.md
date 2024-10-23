@@ -53,18 +53,18 @@
 - Le bot doit avoir accès à l'ID des fils Discord de signature.  
 
 ## Journalisation et statistiques
+- L'affichage des statistiques se situe au niveau du dashboard
 - Le bot enregistre chaque fois qu'un utilisateur fait appel à lui dans un journal.  
 - Les statistiques sont conservées de la manière suivante :
     - Quelle commande a été utilisée.
     - Quel utilisateur à lancé la commande.
     - A quelle date à été lancée la commande.
     - A quel l'utilisateur la commande est-elle destinée.
-- L'affichage des 
 - Le système permet un tableau avec une liste des mauvais signeurs.
 - Cette liste peut être filtrée par promo.
 - Cette liste peut être filtrée par période de temps.
 - Le système permet de générer un graphique en barre pour avoir un appercu visuel des incidents.
-- Le graphique peut afficher des statistiques globales ou être filtrée par promo
+- Le graphique peut afficher des statistiques globales ou être filtrée par promo.
 - Le graphique possède prend en ordonnée le nombre d'incidents et en abscisse les jours de la semaine.
 - Les types d'incidents affichables sont: 
     - Le nombre de fois où la commande de rappel au formateur a été utilisée.
@@ -73,9 +73,8 @@
 
 
 ## Configuration du bot
-
 - Le bot enregistre l'état (démarré/arrêté/pause).
 - Le bot dispose d'une fonction de redémarrage.
-- L'arrêt du bot peut se faire à l'échelle globale ou pour des canaux spécifiques
-- La mise en pause du bot peut se faire à l'échelle globale ou pour des canaux spécifiques
+- L'arrêt du bot peut se faire à l'échelle globale ou pour des canaux spécifiques.
+- La mise en pause du bot peut se faire à l'échelle globale ou pour des canaux spécifiques.
 - Le bot enregistre la durée prévue de la mise en pause pour se réactiver automatiquement à la fin de la période.
