@@ -3,74 +3,72 @@
 ## Configuration du bot
 - Le bot possède une fonctionnalité pour s'arrêter.
 - Le bot possède une fonctionnalité pour démarrer.
-- Le bot possède une fonctionnalité pour redemarrer.
-- Le bot possède une fonctionnalité pour créer un message dans le thread signature du channel des promos qui gère l'interface de vote (RGx a RGy).
-- Le bot possède une fonctionnalité pour créér un message dans le thread signature du channel des promos qui gère l'interface de rappel de signature (RGx à RGy).
-- Le bot possède une fonctionnalité pour créér un message dans le thread signature du channel des promos qui gère l'interface notification que les apprenants peuvent signer (RGx à RGy).
-- Le bot possède une fonctionnalité pour créer les trois messages d'un coup
-- Le bot possède une fonctionnalité pour créer les messages dans plusieurs threads signature d'un coup
-- Le bot possède une fonctionnalité pour créer les messages dans tout les thread signature d'un coup (pour l'initialisation du bot)
+- Le bot possède une fonctionnalité pour redémarrer.
+- Le bot possède une fonctionnalité pour créer un message dans le thread signature du channel des promos qui gère l'interface de vote (RGx à RGy).
+- Le bot possède une fonctionnalité pour créer un message dans le thread signature du channel des promos qui gère l'interface notification que les apprenants peuvent signer (RGx à RGy).
+- Le bot possède une fonctionnalité pour créer un message dans le thread signature du channel des promos qui gère l'interface de rappel de signature (RGx à RGy).
+- Le bot possède une fonctionnalité pour créer les trois messages d'un coup.
+- Le bot possède une fonctionnalité pour créer les messages dans plusieurs threads signature d'un coup.
+- Le bot possède une fonctionnalité pour créer les messages dans tous les threads signature d'un coup (pour l'initialisation du bot).
 
-## Rappeller a un formateur qu'il a oublié de faire signer
+## Rappeler à un formateur qu'il a oublié de faire signer
 - Le message est lié à un channel de promo.
 - Le message prend la forme d'un vote.
 - Le message contient une liste de boutons.
 - Il y a un bouton par formateur de la promo.
-- Les boutons ont deux états: actif et inactif.
+- Les boutons ont deux états : actif et inactif.
 - Un seul bouton peut être actif à la fois.
-- Activer un bouton désactive les autres
+- Activer un bouton désactive les autres.
 - Il faut un bouton actif pour lancer le vote.
 - Il y a un bouton pour démarrer le vote.
 - Il faut trois votes pour que le vote soit un succès.
-- Dès que le vote est un succès le bot envoie un message privé au formateur pour l'avertir qu'il doit autoriser les apprenants à signer.
+- Dès que le vote est un succès, le bot envoie un message privé au formateur pour l'avertir qu'il doit autoriser les apprenants à signer.
 
 ## Prévenir les apprenants qu'ils peuvent signer
 - Le message est lié à un channel de promo.
-- Le message possède un bouton
-- Seul les formateurs peuvent utiliser le bouton
+- Le message possède un bouton.
+- Seuls les formateurs peuvent utiliser le bouton.
 - Le message est envoyé directement dans le thread signature.
-- La promo est notifiée via un tag @
-- Le bot peut sauvegarder l'id du message
-- Le bot peut supprimer le message quand il n'est plus utile
+- La promo est notifiée via un tag @.
+- Le bot peut sauvegarder l'ID du message.
+- Le bot peut supprimer le message quand il n'est plus utile.
 
-## Rappeller a un apprenant qu'il a oublié de signer
+## Rappeler à un apprenant qu'il a oublié de signer
 - Le message est lié à un channel de promo.
 - Le message contient une liste de boutons.
-- Seul les formateurs peuvent interragir avec les boutons.
-- Il y a un bouton par apprenant de promo.
-- Les boutons ont deux états: actif et inactif.
-- Plusieurs boutons peuvent etre actifs en meme temps
+- Seuls les formateurs peuvent interagir avec les boutons.
+- Il y a un bouton par apprenant de la promo.
+- Les boutons ont deux états : actif et inactif.
+- Plusieurs boutons peuvent être actifs en même temps.
 - Il y a un bouton pour valider l'envoi des rappels.
-- Lorsqu'un rappel est validé le bot dresse une liste d'apprenants a notifier selon l'état 'activé' des bouttons.
+- Lorsqu'un rappel est validé, le bot dresse une liste d'apprenants à notifier selon l'état "activé" des boutons.
 - Les apprenants sélectionnés sont notifiés par message privé.
 
-
 ## Journalisation
-- Le bot enregistre chaque fois qu'un utilisateur fait appel à lui dans un journal.  
+- Le bot enregistre chaque fois qu'un utilisateur fait appel à lui dans un journal.
 - Le journal écrit les informations de la manière suivante :
-    - A quelle date à été lancée la commande.
-    - Quel utilisateur à lancé la commande.
+    - À quelle date a été lancée la commande.
+    - Quel utilisateur a lancé la commande.
     - Quelle commande a été utilisée.
-    - A quel l'utilisateur la commande est-elle destinée.
+    - À quel utilisateur la commande est-elle destinée.
 
 ## Structuration de l'organisation
+- Un formateur est lié à une ou plusieurs promotions.
+- Une promotion est liée à un ou plusieurs formateurs.
+- Un apprenant suit une formation à la fois.
+- Une promotion regroupe plusieurs apprenants.
+- Un apprenant appartient à une promotion.
+- Une promotion a un chargé de projets.
+- Un chargé de projets a une ou plusieurs promotions.
+- Une formation peut être dispensée dans un ou plusieurs centres.
+- Un centre peut proposer une ou plusieurs formations.
 
-- Un formateur est lié à une ou plusieurs promotions.  
-- Une promotion est liée à un ou plusieurs formateurs.  
-- Un apprenant suit une formation à la fois.  
-- Une promotion regroupe plusieurs apprenants.  
-- Un apprenant appartient à une promotion.  
-- Une promotion a un chargé de projets.  
-- Un chargé de projets a une ou plusieurs promotions.  
-- Une formation peut être dispensée dans un ou plusieurs centres.  
-- Un centre peut proposer une ou plusieurs formations. 
-
-# Données nécéssaires au bot
-- Le bot doit avoir accès à la liste des formateurs.  
-- Le bot doit avoir accès à la liste des formations.  
-- Le bot doit avoir accès à la liste des promotions.  
-- Le bot doit avoir accès à la liste des apprenants.  
-- Le bot doit avoir accès à la liste des chargés de projets.  
-- Le bot doit avoir accès à l'ID Discord des utilisateurs.  
-- Le bot doit avoir accès à l'ID des canaux Discord des promotions.  
-- Le bot doit avoir accès à l'ID des fils Discord de signature. 
+# Données nécessaires au bot
+- Le bot doit avoir accès à la liste des formateurs.
+- Le bot doit avoir accès à la liste des formations.
+- Le bot doit avoir accès à la liste des promotions.
+- Le bot doit avoir accès à la liste des apprenants.
+- Le bot doit avoir accès à la liste des chargés de projets.
+- Le bot doit avoir accès à l'ID Discord des utilisateurs.
+- Le bot doit avoir accès à l'ID des canaux Discord des promotions.
+- Le bot doit avoir accès à l'ID des fils Discord de signature.
