@@ -1,5 +1,5 @@
 # E1 Interactions apprenants
-- E1us2 : En tant qu'apprenant, utiliser un bouton pour lancer un vote afin de créer le vote qui permet d'alerter le formateur qu'il a oublié de faire signer les apprenants.
+- E1us2 : En tant qu'apprenant, je souhaite utiliser un bouton pour lancer un vote afin de créer le vote qui permet d'alerter le formateur qu'il a oublié de faire signer les apprenants.
     - Créer le squelette du message
     - Créer le label du message
     - Sélectionner la promo d'où vient l'action
