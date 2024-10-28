@@ -20,3 +20,12 @@
     - Sélectionner la promo d'où vient l'action
     - Créer le bouton pour envoyer l'action
     - Créer l'envoi du message dans le channel associé a la promo à l'aide d'un tag @promo
+- E2us2 : En tant que formateur je souhaite avoir accès à une interface dédiée afin de pouvoir rappeler un ou n apprenants qu'ils peuvent signer.
+    - Créer le squellette du message
+    - Créer le label du message
+    - Sélectionner la promo d'où vient l'action
+    - Récupérer la liste de tout les apprenants
+    - Créer un bouton pour chaque apprenant de la promo
+    - Créer un bouton pour valider l'envoi des messages
+    - Récupérer la liste de tout les apprenants sélectionnés
+    - Envoyer un message privé aux apprenants sélectionnés
