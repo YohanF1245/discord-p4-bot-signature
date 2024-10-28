@@ -29,3 +29,9 @@
     - Créer un bouton pour valider l'envoi des messages
     - Récupérer la liste de tout les apprenants sélectionnés
     - Envoyer un message privé aux apprenants sélectionnés
+# E3 Intéraction adminstrateur
+- E3us1 : En tant qu'adminstrateur je souhaite avoir accès a des commandes afin de configurer le bot signature
+    - Créer la commande de démarrage du bot
+    - Créer la commande d'arrêt du bot
+    - Créer la commande de pause du bot
+    - Créer la commande de redémarrage du bot
