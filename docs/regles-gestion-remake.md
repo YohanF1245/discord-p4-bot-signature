@@ -1,56 +1,45 @@
 # Règles de gestion
 
 ## Configuration du bot
-- Le bot possède une fonctionnalité pour s'arrêter.
-- Le bot possède une fonctionnalité pour démarrer.
-- Le bot possède une fonctionnalité pour redémarrer.
-- Le bot possède une fonctionnalité pour créer un message dans le thread signature du channel des promos qui gère l'interface de vote (RGx à RGy).
-- Le bot possède une fonctionnalité pour créer un message dans le thread signature du channel des promos qui gère l'interface notification que les apprenants peuvent signer (RGx à RGy).
-- Le bot possède une fonctionnalité pour créer un message dans le thread signature du channel des promos qui gère l'interface de rappel de signature (RGx à RGy).
-- Le bot possède une fonctionnalité pour créer les trois messages d'un coup.
-- Le bot possède une fonctionnalité pour créer les messages dans plusieurs threads signature d'un coup.
-- Le bot possède une fonctionnalité pour créer les messages dans tous les threads signature d'un coup (pour l'initialisation du bot).
+- Le système peut être arrêté, démarré ou en pause.
+- L'état de pause peut être associé à une ou plusieurs promos.
+- Le bot peut créer les messages à la demande.
 
 ## Rappeler à un formateur qu'il a oublié de faire signer
 - Le message est lié à un channel de promo.
 - Le message prend la forme d'un vote.
-- Le message contient une liste de boutons.
-- Il y a un bouton par formateur de la promo.
-- Les boutons ont deux états : actif et inactif.
-- Un seul bouton peut être actif à la fois.
-- Activer un bouton désactive les autres.
-- Il faut un bouton actif pour lancer le vote.
-- Il y a un bouton pour démarrer le vote.
+- Un apprenant de la promo peut lancer un vote pour rappeler au formateur qu'il a oublié de faire signer.
+- Il y a un une liste selectionable contenant les formateurs liés a la promo.
+- Un seul formateur peut être sélectionné à la fois.
+- Il faut qu'un formateur soit sélectionner pour lancer le vote.
 - Il faut trois votes pour que le vote soit un succès.
 - Dès que le vote est un succès, le bot envoie un message privé au formateur pour l'avertir qu'il doit autoriser les apprenants à signer.
 
 ## Prévenir les apprenants qu'ils peuvent signer
 - Le message est lié à un channel de promo.
-- Le message possède un bouton.
-- Seuls les formateurs peuvent utiliser le bouton.
-- Le message est envoyé directement dans le thread signature.
+- Le message permet de notifier les apprenants qu'ils peuvent signer.
+- Seul les formateurs peuvent peuvent utiliser cette fonction.
+- Le message est envoyé directement dans le fil de discussion signature.
 - La promo est notifiée via un tag @.
-- Le bot peut sauvegarder l'ID du message.
-- Le bot peut supprimer le message quand il n'est plus utile.
+- Le bot sauvegarde l'ID du message.
+- Le message n'est utile que pendant que la signature est possible sur les plateformes externes.
+- Le bot supprime le message quand il n'est plus utile.
 
 ## Rappeler à un apprenant qu'il a oublié de signer
 - Le message est lié à un channel de promo.
-- Le message contient une liste de boutons.
-- Seuls les formateurs peuvent interagir avec les boutons.
-- Il y a un bouton par apprenant de la promo.
-- Les boutons ont deux états : actif et inactif.
-- Plusieurs boutons peuvent être actifs en même temps.
-- Il y a un bouton pour valider l'envoi des rappels.
-- Lorsqu'un rappel est validé, le bot dresse une liste d'apprenants à notifier selon l'état "activé" des boutons.
+- Le message contient la liste des apprenants liés a la promo.
+- Seuls les formateurs peuvent interagir avec le message.
+- Les formateurs peuvent selectionner un ou plusieurs apprenants.
+- Il faut au moins un apprenant sélectionné pour valider le rappel.
 - Les apprenants sélectionnés sont notifiés par message privé.
 
 ## Journalisation
 - Le bot enregistre chaque fois qu'un utilisateur fait appel à lui dans un journal.
 - Le journal écrit les informations de la manière suivante :
-    - À quelle date a été lancée la commande.
-    - Quel utilisateur a lancé la commande.
-    - Quelle commande a été utilisée.
-    - À quel utilisateur la commande est-elle destinée.
+     À quelle date a été lancée la commande.
+     Quel utilisateur a lancé la commande.
+     Quelle commande a été utilisée.
+     À quel utilisateur la commande est-elle destinée.
 
 ## Structuration de l'organisation
 - Un formateur est lié à une ou plusieurs promotions.
@@ -64,11 +53,11 @@
 - Un centre peut proposer une ou plusieurs formations.
 
 # Données nécessaires au bot
-- Le bot doit avoir accès à la liste des formateurs.
-- Le bot doit avoir accès à la liste des formations.
-- Le bot doit avoir accès à la liste des promotions.
-- Le bot doit avoir accès à la liste des apprenants.
-- Le bot doit avoir accès à la liste des chargés de projets.
-- Le bot doit avoir accès à l'ID Discord des utilisateurs.
-- Le bot doit avoir accès à l'ID des canaux Discord des promotions.
-- Le bot doit avoir accès à l'ID des fils Discord de signature.
+- Le bot a accès à la liste des formateurs.
+- Le bot a accès à la liste des formations.
+- Le bot a accès à la liste des promotions.
+- Le bot a accès à la liste des apprenants.
+- Le bot a accès à la liste des chargés de projets.
+- Le bot a accès à l'ID Discord des utilisateurs.
+- Le bot a accès à l'ID des canaux Discord des promotions.
+- Le bot a accès à l'ID des fils Discord de signature.
