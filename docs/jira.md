@@ -1,4 +1,4 @@
-# E1 Interaction bot-utilisateurs
+# E1 Interactions apprenants
 - E1us2 : En tant qu'apprenant utiliser un bouton pour lancer un vote afin de créer le vote qui permet d'alerter le formateur qu'il a oublié de faire signer les apprenants
     - Créer le squellette du message
     - Créer le label message
@@ -13,3 +13,10 @@
     - Récupérer le formateur sélectionné
     - Comptabiliser le nombre de votants
     - Au bout de trois votes, envoyer un message privé au formateur séléctionné;
+# E2 Intéractions formateurs
+- E2us1 : En tant que formtateur je souhaite avoir accès à un bouton afin de pouvoir notifier aux apprenants de mon groupe qu'ils peuvent signer
+    - Créer le squellette du message
+    - Créer le label du message
+    - Sélectionner la promo d'où vient l'action
+    - Créer le bouton pour envoyer l'action
+    - Créer l'envoi du message dans le channel associé a la promo à l'aide d'un tag @promo
